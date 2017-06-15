@@ -1,5 +1,6 @@
 The following program will encrypt any plain text using a stream and block method when supplied with some kind of key.
 It will also decrypt any cipher using a stream or block method when supplied with the same key that was used for encryption.
+
 The program will exit with some kind of error message if any of the following cases are met:
 	1. Any input file, minus the output file name, does not exist.
 	2. If a cipher mode other than 'S' for stream, or 'B' for block is used, case sensitive.
