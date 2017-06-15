@@ -1,0 +1,17 @@
+The following program will encrypt any plain text using a stream and block method when supplied with some kind of key.
+It will also decrypt any cipher using a stream or block method when supplied with the same key that was used for encryption.
+The program will exit with some kind of error message if any of the following cases are met:
+	1. Any input file, minus the output file name, does not exist.
+	2. If a cipher mode other than 'S' for stream, or 'B' for block is used, case sensitive.
+	3. If a operation other than 'E' for encryption, or 'D' for decryption is used, case sensitive.
+	4. Any more or less arugments other than the 5 that are needed, not counting the executable name.
+
+Need to know: The included makefile makes an executable 'PA1'.
+
+Examples of run time arguments:
+
+Stream Encryption: <executable> S <plain text file> <output file name> <key file> E
+Stream Decryption: <executable> S <plain text file> <output file name> <key file> D
+
+Block Encryption: <executale> B <plain text file> <output file name> <key file> E
+Block Decryption: <executale> B <plain text file> <output file name> <key file> D
