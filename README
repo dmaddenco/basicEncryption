@@ -14,5 +14,5 @@ Examples of run time arguments:
 Stream Encryption: <executable> S <plain text file> <output file name> <key file> E
 Stream Decryption: <executable> S <plain text file> <output file name> <key file> D
 
-Block Encryption: <executale> B <plain text file> <output file name> <key file> E
-Block Decryption: <executale> B <plain text file> <output file name> <key file> D
+Block Encryption: <executable> B <plain text file> <output file name> <key file> E
+Block Decryption: <executable> B <plain text file> <output file name> <key file> D
